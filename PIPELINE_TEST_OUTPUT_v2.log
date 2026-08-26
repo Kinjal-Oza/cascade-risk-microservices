@@ -1,0 +1,23 @@
+=== Step 1: build call graph from real, time-matched aggregated CallGraph edges (windows 0-149) ===
+Callers in graph: 22885
+Top 5 blast radius: [('MS_15934', 2441629.4558036444), ('MS_25557', 1391228.249551453), ('MS_45285', 953769.4480323847), ('MS_39211', 848116.1288314237), ('MS_4660', 557844.8628570492)]
+
+=== Step 2: latency deviation + call-rate anomaly from real aggregated data (150 windows) ===
+Services in aggregated data: 26224
+Services with a usable latency z-score (>=3 windows history): 26114
+Services with a usable call-rate z-score: 26114
+Top 5 latency deviations: [('MS_43453', 20, 17.84084720890458), ('MS_65630', 100, 17.72156579161263), ('MS_34972', 8, 16.24117742348054), ('MS_64407', 3, 15.199136439680053), ('MS_8562', 8, 14.139748256917144)]
+
+=== Step 3: overlap check — services present in BOTH graph and aggregated data ===
+Graph services: 35661, Aggregated services: 26224, Overlap: 12599
+
+=== Step 4: cascade-event heuristic labeling on real data ===
+Cascade events found (z_threshold=3.0, min_downstream=3): 2
+   ('MS_745', 5, 4, ['MS_64119', 'MS_66546', 'MS_70353', 'MS_46460'])
+   ('MS_39564', 6, 4, ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221'])
+
+=== Step 5: build feature matrix + attempt weighted fit ===
+Feature matrix rows: 1829959, positive labels: 9
+Weighted fit result (standardized-feature coefficients): {'coefficients_on_standardized_features': {'blast_radius': 0.06677523611151927, 'latency_z': 0.14845393585536376, 'callrate_z': 0.001076786120956371}, 'scaler_mean': [1207.8471810286346, -0.028362952606911605, -1.8107745787925918e-06], 'scaler_scale': [18887.540899352403, 0.4514736797036214, 6.24149410137026e-05], 'caveat': 'Only 9 positive examples — this fit is a real preliminary signal, not a stable calibration. Treat as directional (which signals the model leans on) rather than as final weights until a larger real-data pull raises the positive count.'}
+
+State saved to data/agg/pipeline_v2_state.pkl for baseline/ablation scripts.

@@ -1,0 +1,31 @@
+Evaluation set: 1829959 rows, 9 positives, 1829950 negatives
+
+=== Full Cascade Risk Score (all 3 signals, fitted logistic regression) ===
+Cascade Risk Score (blast+latency+callrate, fitted): AUC-ROC = 0.8796
+
+=== Naive unsupervised combined score (unweighted sigmoid, no fitting) ===
+Naive combined score (unfitted sanity baseline): AUC-ROC = 0.8135
+
+=== Baseline 1: rolling z-score only (latency signal alone, no graph/call-rate) ===
+Latency z-score alone: AUC-ROC = 0.8780
+
+=== Baseline 2: static global SLO threshold (binary, single global cutoff) ===
+(Global p95 latency threshold used: 159.08ms)
+Static global SLO threshold (binary): AUC-ROC = 0.5863
+
+=== Ablations: single-signal and pairwise fits (same AUC metric) ===
+Ablation [blast_radius only]: AUC-ROC = 0.5489
+Ablation [latency_z only (fitted)]: AUC-ROC = 0.8780
+Ablation [callrate_z only]: AUC-ROC = 0.6495
+Ablation [blast_radius + latency_z]: AUC-ROC = 0.8795
+Ablation [blast_radius + callrate_z]: AUC-ROC = 0.6191
+Ablation [latency_z + callrate_z]: AUC-ROC = 0.8781
+Ablation [all three (= full model, sanity check)]: AUC-ROC = 0.8796
+
+=== Lead-time check: does the score flag the upstream service BEFORE downstream services show anomaly? ===
+  Event: MS_745 at window 5 triggered 4 downstream anomalies: ['MS_64119', 'MS_66546', 'MS_70353', 'MS_46460']
+    -> upstream 'MS_745' latency_z at window 5: 5.03001233998412
+  Event: MS_39564 at window 6 triggered 4 downstream anomalies: ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221']
+    -> upstream 'MS_39564' latency_z at window 6: 3.2519213139735244
+
+Saved evaluation_results.pkl

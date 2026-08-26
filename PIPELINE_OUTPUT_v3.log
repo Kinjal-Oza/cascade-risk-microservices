@@ -1,0 +1,30 @@
+=== Step 1: build call graph from real, time-matched aggregated CallGraph edges (windows 0-499) ===
+Callers in graph: 32823
+Top 5 blast radius: [('MS_15934', 8056826.255824747), ('MS_25557', 7162148.821076255), ('MS_45285', 6245581.78334893), ('MS_39211', 5441125.571343488), ('MS_4990', 2536057.0112915444)]
+
+=== Step 2: latency deviation + call-rate anomaly from real aggregated data (500 windows) ===
+Services in aggregated data: 26610
+Services with a usable latency z-score (>=3 windows history): 26552
+Services with a usable call-rate z-score: 26552
+Top 5 latency deviations: [('MS_56527', 157, 32.60912738279515), ('MS_43453', 20, 17.84084720890458), ('MS_65630', 100, 17.72156579161263), ('MS_50918', 195, 17.611266612962208), ('MS_45449', 214, 17.2545368494517)]
+
+=== Step 3: overlap check — services present in BOTH graph and aggregated data ===
+Graph services: 51360, Aggregated services: 26610, Overlap: 18015
+
+=== Step 4: cascade-event heuristic labeling on real data ===
+Cascade events found (z_threshold=3.0, min_downstream=3): 8
+   ('MS_745', 5, 5, ['MS_64119', 'MS_66546', 'MS_70353', 'MS_46460', 'MS_745'])
+   ('MS_39564', 6, 4, ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221'])
+   ('MS_53695', 180, 4, ['MS_39516', 'MS_60501', 'MS_24927', 'MS_47927'])
+   ('MS_4990', 218, 3, ['MS_24155', 'MS_33839', 'MS_4990'])
+   ('MS_42817', 186, 3, ['MS_42817', 'MS_72766', 'MS_37725'])
+   ('MS_64203', 188, 3, ['MS_62171', 'MS_64203', 'MS_57555'])
+   ('MS_66044', 185, 4, ['MS_57555', 'MS_4845', 'MS_15487', 'MS_43230'])
+   ('MS_38376', 173, 3, ['MS_38376', 'MS_20838', 'MS_44508'])
+
+=== Step 5: build feature matrix (memory-efficient construction) + attempt weighted fit ===
+Feature matrix rows: 8492936
+Positive labels in feature matrix: 31
+Weighted fit result (standardized-feature coefficients): {'coefficients_on_standardized_features': {'blast_radius': 0.028811697605407194, 'latency_z': 0.08202900627595125, 'callrate_z': -0.0023929286641168547}, 'scaler_mean': [3304.140587556588, 0.04244665329428438, 5.782801107321512e-06], 'scaler_scale': [78505.34687833225, 0.5818160690375718, 8.45859443918158e-05]}
+
+State saved to data/agg/pipeline_v3_state.pkl for baseline/ablation scripts.
