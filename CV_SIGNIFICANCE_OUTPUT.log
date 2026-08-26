@@ -1,0 +1,32 @@
+Loaded: 8492936 rows, 31 positives. (40.6s)
+Events: 8, at windows [5, 6, 173, 180, 185, 186, 188, 218]
+Positive rows per event: [5, 4, 5, 3, 3, 3, 5, 3]
+
+=== #1 Leave-one-event-out cross-validation (out-of-sample AUC) ===
+  Event 0 (window 5, 5 held-out positive rows, trained on 26 positives): out-of-sample AUC = 0.8269 (59s elapsed)
+  Event 1 (window 6, 4 held-out positive rows, trained on 27 positives): out-of-sample AUC = 0.8794 (70s elapsed)
+  Event 2 (window 180, 5 held-out positive rows, trained on 26 positives): out-of-sample AUC = 0.8701 (84s elapsed)
+  Event 3 (window 218, 3 held-out positive rows, trained on 28 positives): out-of-sample AUC = 0.7811 (95s elapsed)
+  Event 4 (window 186, 3 held-out positive rows, trained on 28 positives): out-of-sample AUC = 0.7359 (107s elapsed)
+  Event 5 (window 188, 3 held-out positive rows, trained on 28 positives): out-of-sample AUC = 0.9330 (120s elapsed)
+  Event 6 (window 185, 5 held-out positive rows, trained on 26 positives): out-of-sample AUC = 0.8073 (133s elapsed)
+  Event 7 (window 173, 3 held-out positive rows, trained on 28 positives): out-of-sample AUC = 0.7587 (147s elapsed)
+
+LOEO mean out-of-sample AUC: 0.8241 (std across folds: 0.0625, n_folds=8)
+Compare to in-sample (fit-and-evaluate-on-everything) AUC: 0.8267
+Compare to naive (unfitted, no train/test split needed): 0.8360
+
+=== #2 Paired bootstrap: how often does naive actually beat fitted? ===
+In-sample AUC check -- fitted: 0.8267, naive: 0.8360 (175s elapsed)
+  bootstrap 200/1000 (201s elapsed)
+  bootstrap 400/1000 (229s elapsed)
+  bootstrap 600/1000 (257s elapsed)
+  bootstrap 800/1000 (285s elapsed)
+  bootstrap 1000/1000 (313s elapsed)
+
+Bootstrap mean(naive AUC - fitted AUC): 0.0091
+95% CI on the difference: [-0.0483, 0.0653]
+Naive beat fitted in 636/1000 bootstrap resamples (63.6%)
+-> The 95% CI includes zero: cannot confidently say either one beats the other -- the in-sample gap may just be noise.
+
+Saved data/agg/cv_significance_results.pkl. Total time: 313s
