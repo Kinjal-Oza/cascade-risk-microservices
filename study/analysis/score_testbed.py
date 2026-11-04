@@ -3,7 +3,7 @@ Usage: python3 score_testbed.py RUNDIR OUT.json
 """
 import sys, os, json, glob, gzip, math, collections
 import numpy as np, pandas as pd
-H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, f"{H}/method_src")
+H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, f"{H}/method_src"); sys.path.insert(0, os.path.join(H, "..", "..", "src"))
 import graph_features as GF, temporal_features_fast as TF, cascade_score as CS, cascade_labeling as CL
 D, OUT = sys.argv[1], sys.argv[2]
 W, NW, F0, F1 = 30, 18, 240, 420

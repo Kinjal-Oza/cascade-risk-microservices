@@ -1,0 +1,196 @@
+{
+ "rows_scored": 8493422,
+ "rows_forward": 8493391,
+ "windows": 497,
+ "hours": 24.85,
+ "services": 17980,
+ "events": 8,
+ "same_window_label_rows": 31,
+ "forward_positive_rows": 81,
+ "forward_rows_per_event": {
+  "MS_66044@185": 15,
+  "MS_38376@173": 9,
+  "MS_4990@218": 9,
+  "MS_53695@180": 15,
+  "MS_42817@186": 9,
+  "MS_39564@6": 10,
+  "MS_745@5": 10,
+  "MS_64203@188": 8
+ },
+ "forward_rows_that_are_event_upstream": 23,
+ "event_sizes": [
+  {
+   "upstream": "MS_4990",
+   "window": 218,
+   "callees_deviating": 3
+  },
+  {
+   "upstream": "MS_39564",
+   "window": 6,
+   "callees_deviating": 4
+  },
+  {
+   "upstream": "MS_745",
+   "window": 5,
+   "callees_deviating": 5
+  },
+  {
+   "upstream": "MS_42817",
+   "window": 186,
+   "callees_deviating": 3
+  },
+  {
+   "upstream": "MS_64203",
+   "window": 188,
+   "callees_deviating": 3
+  },
+  {
+   "upstream": "MS_53695",
+   "window": 180,
+   "callees_deviating": 4
+  },
+  {
+   "upstream": "MS_66044",
+   "window": 185,
+   "callees_deviating": 4
+  },
+  {
+   "upstream": "MS_38376",
+   "window": 173,
+   "callees_deviating": 3
+  }
+ ],
+ "auc_check": {
+  "naive_crs": 0.7671525051140105,
+  "latency_z": 0.6255326716040893,
+  "blast_radius": 0.7091004232801326
+ },
+ "operating_points": {
+  "naive_crs": [
+   {
+    "top_fraction": 0.0001,
+    "threshold": 0.8494591064091854,
+    "flagged_rows": 850,
+    "flagged_per_hour": 34.20523138832998,
+    "true_positive_rows": 0,
+    "precision": 0.0,
+    "recall_rows": 0.0,
+    "events_warned_1to3_ahead": 0
+   },
+   {
+    "top_fraction": 0.001,
+    "threshold": 0.236462232648405,
+    "flagged_rows": 8494,
+    "flagged_per_hour": 341.8108651911469,
+    "true_positive_rows": 11,
+    "precision": 0.0012950317871438662,
+    "recall_rows": 0.13580246913580246,
+    "events_warned_1to3_ahead": 2
+   },
+   {
+    "top_fraction": 0.01,
+    "threshold": 0.05565893437520627,
+    "flagged_rows": 84934,
+    "flagged_per_hour": 3417.867203219316,
+    "true_positive_rows": 28,
+    "precision": 0.00032966774201144416,
+    "recall_rows": 0.345679012345679,
+    "events_warned_1to3_ahead": 4
+   },
+   {
+    "top_fraction": 0.05,
+    "threshold": 0.025210043586863205,
+    "flagged_rows": 424670,
+    "flagged_per_hour": 17089.33601609658,
+    "true_positive_rows": 40,
+    "precision": 9.419078343184119e-05,
+    "recall_rows": 0.49382716049382713,
+    "events_warned_1to3_ahead": 7
+   }
+  ],
+  "latency_z": [
+   {
+    "top_fraction": 0.0001,
+    "threshold": 6.38068832166626,
+    "flagged_rows": 850,
+    "flagged_per_hour": 34.20523138832998,
+    "true_positive_rows": 0,
+    "precision": 0.0,
+    "recall_rows": 0.0,
+    "events_warned_1to3_ahead": 0
+   },
+   {
+    "top_fraction": 0.001,
+    "threshold": 3.445632041429855,
+    "flagged_rows": 8494,
+    "flagged_per_hour": 341.8108651911469,
+    "true_positive_rows": 8,
+    "precision": 0.0009418412997409936,
+    "recall_rows": 0.09876543209876543,
+    "events_warned_1to3_ahead": 2
+   },
+   {
+    "top_fraction": 0.01,
+    "threshold": 1.7588965068599653,
+    "flagged_rows": 84934,
+    "flagged_per_hour": 3417.867203219316,
+    "true_positive_rows": 24,
+    "precision": 0.0002825723502955236,
+    "recall_rows": 0.2962962962962963,
+    "events_warned_1to3_ahead": 4
+   },
+   {
+    "top_fraction": 0.05,
+    "threshold": 0.91849023931702,
+    "flagged_rows": 424670,
+    "flagged_per_hour": 17089.33601609658,
+    "true_positive_rows": 33,
+    "precision": 7.770739633126898e-05,
+    "recall_rows": 0.4074074074074074,
+    "events_warned_1to3_ahead": 4
+   }
+  ],
+  "blast_radius": [
+   {
+    "top_fraction": 0.0001,
+    "threshold": 5444258.995792816,
+    "flagged_rows": 973,
+    "flagged_per_hour": 39.154929577464785,
+    "true_positive_rows": 0,
+    "precision": 0.0,
+    "recall_rows": 0.0,
+    "events_warned_1to3_ahead": 0
+   },
+   {
+    "top_fraction": 0.001,
+    "threshold": 253112.78095347143,
+    "flagged_rows": 8654,
+    "flagged_per_hour": 348.24949698189135,
+    "true_positive_rows": 8,
+    "precision": 0.0009244280101687081,
+    "recall_rows": 0.09876543209876543,
+    "events_warned_1to3_ahead": 3
+   },
+   {
+    "top_fraction": 0.01,
+    "threshold": 43422.91445769157,
+    "flagged_rows": 85309,
+    "flagged_per_hour": 3432.957746478873,
+    "true_positive_rows": 19,
+    "precision": 0.00022271975993154298,
+    "recall_rows": 0.2345679012345679,
+    "events_warned_1to3_ahead": 5
+   },
+   {
+    "top_fraction": 0.05,
+    "threshold": 6001.318605106714,
+    "flagged_rows": 425122,
+    "flagged_per_hour": 17107.525150905432,
+    "true_positive_rows": 25,
+    "precision": 5.8806648444446534e-05,
+    "recall_rows": 0.30864197530864196,
+    "events_warned_1to3_ahead": 6
+   }
+  ]
+ }
+}

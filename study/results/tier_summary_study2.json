@@ -1,0 +1,86 @@
+{
+ "hotel|cpu_ramp_slow|cache": {
+  "runs": 4,
+  "cascades": 0,
+  "median_lead_crs": null,
+  "median_lead_frontend": null,
+  "ties": 0
+ },
+ "hotel|cpu_ramp_slow|database": {
+  "runs": 6,
+  "cascades": 0,
+  "median_lead_crs": null,
+  "median_lead_frontend": null,
+  "ties": 0
+ },
+ "hotel|cpu_ramp_slow|service": {
+  "runs": 18,
+  "cascades": 7,
+  "median_lead_crs": 0.0,
+  "median_lead_frontend": 0.0,
+  "ties": 5
+ },
+ "hotel|net_ramp|cache": {
+  "runs": 4,
+  "cascades": 4,
+  "median_lead_crs": 180.0,
+  "median_lead_frontend": 180.0,
+  "ties": 4
+ },
+ "hotel|net_ramp|database": {
+  "runs": 6,
+  "cascades": 0,
+  "median_lead_crs": null,
+  "median_lead_frontend": null,
+  "ties": 0
+ },
+ "hotel|net_ramp|service": {
+  "runs": 18,
+  "cascades": 12,
+  "median_lead_crs": 75.0,
+  "median_lead_frontend": 75.0,
+  "ties": 12
+ },
+ "social|cpu_ramp_slow|cache": {
+  "runs": 4,
+  "cascades": 1,
+  "median_lead_crs": 60.0,
+  "median_lead_frontend": 60.0,
+  "ties": 1
+ },
+ "social|cpu_ramp_slow|database": {
+  "runs": 6,
+  "cascades": 0,
+  "median_lead_crs": null,
+  "median_lead_frontend": null,
+  "ties": 0
+ },
+ "social|cpu_ramp_slow|service": {
+  "runs": 22,
+  "cascades": 3,
+  "median_lead_crs": 0.0,
+  "median_lead_frontend": 180.0,
+  "ties": 2
+ },
+ "social|net_ramp|cache": {
+  "runs": 4,
+  "cascades": 4,
+  "median_lead_crs": 90.0,
+  "median_lead_frontend": 90.0,
+  "ties": 4
+ },
+ "social|net_ramp|database": {
+  "runs": 6,
+  "cascades": 4,
+  "median_lead_crs": 180.0,
+  "median_lead_frontend": 180.0,
+  "ties": 4
+ },
+ "social|net_ramp|service": {
+  "runs": 22,
+  "cascades": 22,
+  "median_lead_crs": 75.0,
+  "median_lead_frontend": 75.0,
+  "ties": 20
+ }
+}

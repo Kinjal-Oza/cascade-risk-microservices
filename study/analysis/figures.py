@@ -10,7 +10,7 @@ RUNDIR, OUTDIR = sys.argv[1], sys.argv[2]; os.makedirs(OUTDIR, exist_ok=True)
 H = os.path.dirname(os.path.abspath(__file__))
 src = open(f"{H}/score2.py").read().split("runs = []; calib = set()")[0]
 sys.argv = ["score2.py", RUNDIR, "/dev/null"]; exec(compile(src, "score2.py", "exec"))
-S = json.load(open(f"{H}/results/score2_campaign2.json"))
+S = json.load(open(f"{H}/../results/score2_campaign2.json"))
 BLUE, ORANGE, AQUA, YELLOW, MAGENTA = "#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"
 INK, MUTED, GRID = "#0b0b0b", "#6b6a64", "#e4e3de"
 plt.rcParams.update({"font.size": 8, "axes.edgecolor": MUTED, "axes.labelcolor": INK, "xtick.color": MUTED, "ytick.color": MUTED,
