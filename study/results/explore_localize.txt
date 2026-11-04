@@ -1,0 +1,21 @@
+('M1', 'cascade') {'n': 15, 'top1': 3, 'top3': 10}
+('M1', 'cascade', 'cpu_ramp') {'n': 2, 'top1': 0}
+('M1', 'cascade', 'pause_flap') {'n': 13, 'top1': 3}
+('M1', 'local') {'n': 81, 'top1': 7, 'top3': 23}
+('M1', 'local', 'cpu_ramp') {'n': 30, 'top1': 2}
+('M1', 'local', 'cpu_step') {'n': 32, 'top1': 3}
+('M1', 'local', 'pause_flap') {'n': 19, 'top1': 2}
+('M2', 'cascade') {'n': 15, 'top1': 3, 'top3': 10}
+('M2', 'cascade', 'cpu_ramp') {'n': 2, 'top1': 0}
+('M2', 'cascade', 'pause_flap') {'n': 13, 'top1': 3}
+('M2', 'local') {'n': 81, 'top1': 10, 'top3': 21}
+('M2', 'local', 'cpu_ramp') {'n': 30, 'top1': 5}
+('M2', 'local', 'cpu_step') {'n': 32, 'top1': 3}
+('M2', 'local', 'pause_flap') {'n': 19, 'top1': 2}
+('M5', 'cascade') {'n': 15, 'top1': 3, 'top3': 10}
+('M5', 'cascade', 'cpu_ramp') {'n': 2, 'top1': 0}
+('M5', 'cascade', 'pause_flap') {'n': 13, 'top1': 3}
+('M5', 'local') {'n': 81, 'top1': 10, 'top3': 21}
+('M5', 'local', 'cpu_ramp') {'n': 30, 'top1': 5}
+('M5', 'local', 'cpu_step') {'n': 32, 'top1': 3}
+('M5', 'local', 'pause_flap') {'n': 19, 'top1': 2}

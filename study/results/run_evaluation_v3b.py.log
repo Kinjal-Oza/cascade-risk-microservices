@@ -1,0 +1,44 @@
+Evaluation set: 8493422 rows, 31 positives, 8493391 negatives
+
+=== Full Cascade Risk Score (all 3 signals, fitted logistic regression) ===
+Cascade Risk Score (blast+latency+callrate, fitted): AUC-ROC = 0.8267
+
+=== Naive unsupervised combined score (unweighted sigmoid, no fitting) ===
+Naive combined score (unfitted sanity baseline): AUC-ROC = 0.8359
+
+=== Baseline 1: rolling z-score only (latency signal alone, no graph/call-rate) ===
+Latency z-score alone: AUC-ROC = 0.7944
+
+=== Baseline 2: static global SLO threshold (binary, single global cutoff) ===
+Loaded 12628298 raw aggregated rows for static-SLO baseline.
+(Global p95 latency threshold used: 179.44ms)
+Static global SLO threshold (binary): AUC-ROC = 0.5558
+
+=== Ablations: single-signal and pairwise fits (same AUC metric) ===
+Ablation [blast_radius only]: AUC-ROC = 0.6706
+Ablation [latency_z only (fitted)]: AUC-ROC = 0.7944
+Ablation [callrate_z only]: AUC-ROC = 0.4740
+Ablation [blast_radius + latency_z]: AUC-ROC = 0.8262
+Ablation [blast_radius + callrate_z]: AUC-ROC = 0.6837
+Ablation [latency_z + callrate_z]: AUC-ROC = 0.7951
+Ablation [all three (= full model, sanity check)]: AUC-ROC = 0.8267
+
+=== Lead-time check: does the score flag the upstream service BEFORE downstream services show anomaly? ===
+  Event: MS_4990 at window 218 triggered 3 downstream anomalies: ['MS_33839', 'MS_24155', 'MS_4990']
+    -> upstream 'MS_4990' latency_z at window 218: 4.531825933477911
+  Event: MS_39564 at window 6 triggered 4 downstream anomalies: ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221']
+    -> upstream 'MS_39564' latency_z at window 6: 3.2519213139735244
+  Event: MS_745 at window 5 triggered 5 downstream anomalies: ['MS_70353', 'MS_64119', 'MS_66546', 'MS_46460', 'MS_745']
+    -> upstream 'MS_745' latency_z at window 5: 5.03001233998412
+  Event: MS_42817 at window 186 triggered 3 downstream anomalies: ['MS_42817', 'MS_72766', 'MS_37725']
+    -> upstream 'MS_42817' latency_z at window 186: 3.0697207397043735
+  Event: MS_64203 at window 188 triggered 3 downstream anomalies: ['MS_64203', 'MS_62171', 'MS_57555']
+    -> upstream 'MS_64203' latency_z at window 188: 4.062090435310601
+  Event: MS_53695 at window 180 triggered 4 downstream anomalies: ['MS_39516', 'MS_60501', 'MS_24927', 'MS_47927']
+    -> upstream 'MS_53695' latency_z at window 180: 3.5344982593224374
+  Event: MS_66044 at window 185 triggered 4 downstream anomalies: ['MS_57555', 'MS_4845', 'MS_15487', 'MS_43230']
+    -> upstream 'MS_66044' latency_z at window 185: 3.4293092212743272
+  Event: MS_38376 at window 173 triggered 3 downstream anomalies: ['MS_38376', 'MS_20838', 'MS_44508']
+    -> upstream 'MS_38376' latency_z at window 173: 3.582187697731104
+
+Saved evaluation_results_v3.pkl

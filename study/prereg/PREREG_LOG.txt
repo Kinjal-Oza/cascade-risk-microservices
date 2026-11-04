@@ -1,0 +1,17 @@
+d0b8201 2026-11-03 20:20:02 -0800 Affiliation: Oracle Corporation
+1531642 2026-11-03 20:12:19 -0800 EMSE draft v1 (14 pp, Springer template, two figures)
+c8a1342 2026-11-02 08:06:42 -0800 ICPE draft v1 with all results (4 pp)
+132e55b 2026-11-01 16:58:08 -0800 Campaign 2 results and verdict
+75a4b06 2026-11-01 14:22:56 -0800 Campaign 2 launch note
+d057290 2026-10-29 00:28:21 -0700 Alibaba reproduction and forward evaluation results
+24a9454 2026-10-28 23:23:06 -0700 Campaign 2 plan fixed before any campaign-2 run
+1374b94 2026-10-28 22:42:59 -0700 Campaign results (pre-registered + exploratory) and verdict
+ddbdee9 2026-10-28 22:41:31 -0700 scorer as run
+142c5f6 2026-10-28 21:50:30 -0700 Deviation 2 addendum (before scoring)
+bf36280 2026-10-28 21:00:01 -0700 Deviation 2: re-run shard-5 runs with empty traces (before scoring)
+ef52730 2026-10-28 19:13:12 -0700 ICPE draft skeleton (no results)
+9af55e8 2026-10-28 16:24:06 -0700 Deviation: campaign moves to GitHub runners (before scoring)
+542dfa0 2026-10-28 15:11:54 -0700 Green-light criteria before results
+9a5b525 2026-10-28 14:53:31 -0700 Alibaba re-analysis plan and kernel, before run
+8a9f746 2026-10-28 14:50:40 -0700 Scoring plan and method source fixed before results
+c0b9f4f 2026-10-28 14:46:20 -0700 Campaign plan fixed before any run

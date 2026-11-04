@@ -1,0 +1,73 @@
+{
+ "rows": 8493391,
+ "positives": 81,
+ "current_labelled_excluded": 31,
+ "naive_crs": {
+  "auc_roc": 0.7671525051140105,
+  "auc_pr": 0.0004559221990698929
+ },
+ "latency_z": {
+  "auc_roc": 0.6255326716040894,
+  "auc_pr": 0.0003248132251211734
+ },
+ "callrate_z": {
+  "auc_roc": 0.5067128004348986,
+  "auc_pr": 1.182030821112581e-05
+ },
+ "blast_radius": {
+  "auc_roc": 0.7091004232801326,
+  "auc_pr": 0.00035870189828030876
+ },
+ "sliding_latency_z": {
+  "auc_roc": 0.5660591340365188,
+  "auc_pr": 5.663644364190928e-05
+ },
+ "static_threshold": {
+  "auc_roc": 0.530743909683687,
+  "auc_pr": 1.0849799457274714e-05
+ },
+ "events": [
+  {
+   "um": "MS_4990",
+   "window": 218,
+   "warned_windows_ahead": 0
+  },
+  {
+   "um": "MS_39564",
+   "window": 6,
+   "warned_windows_ahead": 0
+  },
+  {
+   "um": "MS_745",
+   "window": 5,
+   "warned_windows_ahead": 0
+  },
+  {
+   "um": "MS_42817",
+   "window": 186,
+   "warned_windows_ahead": 0
+  },
+  {
+   "um": "MS_64203",
+   "window": 188,
+   "warned_windows_ahead": 1
+  },
+  {
+   "um": "MS_53695",
+   "window": 180,
+   "warned_windows_ahead": 0
+  },
+  {
+   "um": "MS_66044",
+   "window": 185,
+   "warned_windows_ahead": 1
+  },
+  {
+   "um": "MS_38376",
+   "window": 173,
+   "warned_windows_ahead": 0
+  }
+ ],
+ "top0.1pct_naive_threshold": 0.23668813422536888,
+ "base_rate": 9.536826928137419e-06
+}

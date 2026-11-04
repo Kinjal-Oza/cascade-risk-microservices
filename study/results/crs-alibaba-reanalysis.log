@@ -1,0 +1,198 @@
+[{"stream_name":"stdout","time":288.430928899,"data":"mcr 0 285s\n"}
+,{"stream_name":"stdout","time":1034.08195547,"data":"mcr 25 1031s\n"}
+,{"stream_name":"stdout","time":1869.240092246,"data":"mcr 50 1866s\n"}
+,{"stream_name":"stdout","time":2575.950784263,"data":"mcr 75 2572s\n"}
+,{"stream_name":"stdout","time":3432.159389073,"data":"mcr 100 3429s\n"}
+,{"stream_name":"stdout","time":4405.628555681,"data":"mcr 125 4402s\n"}
+,{"stream_name":"stdout","time":5365.597627471,"data":"mcr 150 5362s\n"}
+,{"stream_name":"stdout","time":6341.682406748,"data":"mcr 175 6338s\n"}
+,{"stream_name":"stdout","time":7895.032206043,"data":"mcr 200 7891s\n"}
+,{"stream_name":"stdout","time":9459.699083163,"data":"mcr 225 9456s\n"}
+,{"stream_name":"stdout","time":10678.303999976,"data":"mcr 250 10675s\n"}
+,{"stream_name":"stdout","time":11866.077017583,"data":"mcr 275 11863s\n"}
+,{"stream_name":"stdout","time":13120.62305818,"data":"mcr 300 13117s\n"}
+,{"stream_name":"stdout","time":14225.905416499,"data":"mcr 325 14222s\n"}
+,{"stream_name":"stdout","time":15341.506057097,"data":"mcr 350 15338s\n"}
+,{"stream_name":"stdout","time":15689.968967651,"data":"mcr 375 15686s\n"}
+,{"stream_name":"stdout","time":16644.553236946,"data":"mcr 400 16641s\n"}
+,{"stream_name":"stdout","time":17538.613137934,"data":"mcr 425 17535s\n"}
+,{"stream_name":"stdout","time":18221.186983433,"data":"mcr 450 18218s\n"}
+,{"stream_name":"stdout","time":18835.239093922,"data":"mcr 475 18832s\n"}
+,{"stream_name":"stdout","time":20018.978284961,"data":"cg 0 20015s\n"}
+,{"stream_name":"stdout","time":20554.987967295,"data":"cg 25 20551s\n"}
+,{"stream_name":"stdout","time":21007.216160986,"data":"cg 50 21004s\n"}
+,{"stream_name":"stdout","time":21452.344665448,"data":"cg 75 21449s\n"}
+,{"stream_name":"stdout","time":21877.834149217,"data":"cg 100 21874s\n"}
+,{"stream_name":"stdout","time":22408.976294049,"data":"cg 125 22405s\n"}
+,{"stream_name":"stdout","time":22946.332816664,"data":"cg 150 22943s\n"}
+,{"stream_name":"stdout","time":23602.39532411,"data":"cg 175 23599s\n"}
+,{"stream_name":"stdout","time":24390.54171562,"data":"cg 200 24387s\n"}
+,{"stream_name":"stdout","time":25118.222436295,"data":"cg 225 25115s\n"}
+,{"stream_name":"stdout","time":25822.565886084,"data":"cg 250 25819s\n"}
+,{"stream_name":"stdout","time":26606.006802155,"data":"cg 275 26602s\n"}
+,{"stream_name":"stdout","time":27325.353585136,"data":"cg 300 27322s\n"}
+,{"stream_name":"stdout","time":28110.257565646,"data":"cg 325 28107s\n"}
+,{"stream_name":"stdout","time":28887.372972859,"data":"cg 350 28884s\n"}
+,{"stream_name":"stdout","time":29660.158864719,"data":"cg 375 29657s\n"}
+,{"stream_name":"stdout","time":30335.794214569,"data":"cg 400 30332s\n"}
+,{"stream_name":"stdout","time":31070.195133115,"data":"cg 425 31067s\n"}
+,{"stream_name":"stdout","time":31749.866911917,"data":"cg 450 31746s\n"}
+,{"stream_name":"stdout","time":32362.947124021,"data":"cg 475 32359s\n"}
+,{"stream_name":"stdout","time":32929.554909886,"data":"missing {'mcr': [], 'cg': []}\n"}
+,{"stream_name":"stdout","time":33097.33310632,"data":"=== Step 1: build call graph from real, time-matched aggregated CallGraph edges (windows 0-499) ===\n"}
+,{"stream_name":"stdout","time":33097.333150168,"data":"Callers in graph: 32822\n"}
+,{"stream_name":"stdout","time":33097.333157119,"data":"Top 5 blast radius: [('MS_15934', 8060163.874715142), ('MS_25557', 7165204.2758629015), ('MS_45285', 6252770.805745562), ('MS_39211', 5444258.995792816), ('MS_4990', 2537322.2321683937)]\n"}
+,{"stream_name":"stdout","time":33097.333164113,"data":"\n"}
+,{"stream_name":"stdout","time":33097.333168737,"data":"=== Step 2: latency deviation + call-rate anomaly from real aggregated data (500 windows) ===\n"}
+,{"stream_name":"stdout","time":33097.333191485,"data":"Services in aggregated data: 26610\n"}
+,{"stream_name":"stdout","time":33097.333194733,"data":"Services with a usable latency z-score (\u003e=3 windows history): 26552\n"}
+,{"stream_name":"stdout","time":33097.33319761,"data":"Services with a usable call-rate z-score: 26552\n"}
+,{"stream_name":"stdout","time":33097.33320004,"data":"Top 5 latency deviations: [('MS_56527', 157, 32.60912738279515), ('MS_43453', 20, 17.84084720890458), ('MS_65630', 100, 17.72156579161263), ('MS_50918', 195, 17.611266612962208), ('MS_45449', 214, 17.2545368494517)]\n"}
+,{"stream_name":"stdout","time":33097.333202731,"data":"\n"}
+,{"stream_name":"stdout","time":33097.333204982,"data":"=== Step 3: overlap check — services present in BOTH graph and aggregated data ===\n"}
+,{"stream_name":"stdout","time":33097.333208345,"data":"Graph services: 50028, Aggregated services: 26610, Overlap: 18016\n"}
+,{"stream_name":"stdout","time":33097.333210749,"data":"\n"}
+,{"stream_name":"stdout","time":33097.333213122,"data":"=== Step 4: cascade-event heuristic labeling on real data ===\n"}
+,{"stream_name":"stdout","time":33097.333215489,"data":"Cascade events found (z_threshold=3.0, min_downstream=3): 8\n"}
+,{"stream_name":"stdout","time":33097.33321792,"data":"   ('MS_4990', 218, 3, ['MS_33839', 'MS_24155', 'MS_4990'])\n"}
+,{"stream_name":"stdout","time":33097.333220902,"data":"   ('MS_39564', 6, 4, ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221'])\n"}
+,{"stream_name":"stdout","time":33097.333224357,"data":"   ('MS_745', 5, 5, ['MS_70353', 'MS_64119', 'MS_66546', 'MS_46460', 'MS_745'])\n"}
+,{"stream_name":"stdout","time":33097.333228193,"data":"   ('MS_42817', 186, 3, ['MS_42817', 'MS_72766', 'MS_37725'])\n"}
+,{"stream_name":"stdout","time":33097.333231938,"data":"   ('MS_64203', 188, 3, ['MS_64203', 'MS_62171', 'MS_57555'])\n"}
+,{"stream_name":"stdout","time":33097.333235654,"data":"   ('MS_53695', 180, 4, ['MS_39516', 'MS_60501', 'MS_24927', 'MS_47927'])\n"}
+,{"stream_name":"stdout","time":33097.333239431,"data":"   ('MS_66044', 185, 4, ['MS_57555', 'MS_4845', 'MS_15487', 'MS_43230'])\n"}
+,{"stream_name":"stdout","time":33097.333243327,"data":"   ('MS_38376', 173, 3, ['MS_38376', 'MS_20838', 'MS_44508'])\n"}
+,{"stream_name":"stdout","time":33097.3332473,"data":"\n"}
+,{"stream_name":"stdout","time":33097.333251073,"data":"=== Step 5: build feature matrix (memory-efficient construction) + attempt weighted fit ===\n"}
+,{"stream_name":"stdout","time":33097.333254872,"data":"Feature matrix rows: 8493422\n"}
+,{"stream_name":"stdout","time":33097.333258521,"data":"Positive labels in feature matrix: 31\n"}
+,{"stream_name":"stdout","time":33097.333264243,"data":"Weighted fit result (standardized-feature coefficients): {'coefficients_on_standardized_features': {'blast_radius': 0.028811513546380604, 'latency_z': 0.08201923832223426, 'callrate_z': -0.002392540657062712}, 'scaler_mean': [3305.786208917657, 0.042462049627703724, 5.782470211089327e-06], 'scaler_scale': [78541.18791984375, 0.5818438326723586, 8.458353562729583e-05]}\n"}
+,{"stream_name":"stdout","time":33097.333268983,"data":"\n"}
+,{"stream_name":"stdout","time":33097.333272721,"data":"State saved to data/agg/pipeline_v3_state.pkl for baseline/ablation scripts.\n"}
+,{"stream_name":"stdout","time":33097.333276482,"data":"\n"}
+,{"stream_name":"stdout","time":33233.355944752,"data":"Evaluation set: 8493422 rows, 31 positives, 8493391 negatives\n"}
+,{"stream_name":"stdout","time":33233.355987435,"data":"\n"}
+,{"stream_name":"stdout","time":33233.355993913,"data":"=== Full Cascade Risk Score (all 3 signals, fitted logistic regression) ===\n"}
+,{"stream_name":"stdout","time":33233.355999165,"data":"Cascade Risk Score (blast+latency+callrate, fitted): AUC-ROC = 0.8267\n"}
+,{"stream_name":"stdout","time":33233.356019882,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356024137,"data":"=== Naive unsupervised combined score (unweighted sigmoid, no fitting) ===\n"}
+,{"stream_name":"stdout","time":33233.356027517,"data":"Naive combined score (unfitted sanity baseline): AUC-ROC = 0.8359\n"}
+,{"stream_name":"stdout","time":33233.356031531,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356035051,"data":"=== Baseline 1: rolling z-score only (latency signal alone, no graph/call-rate) ===\n"}
+,{"stream_name":"stdout","time":33233.356039203,"data":"Latency z-score alone: AUC-ROC = 0.7944\n"}
+,{"stream_name":"stdout","time":33233.356042532,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356045792,"data":"=== Baseline 2: static global SLO threshold (binary, single global cutoff) ===\n"}
+,{"stream_name":"stdout","time":33233.356049816,"data":"Loaded 12628298 raw aggregated rows for static-SLO baseline.\n"}
+,{"stream_name":"stdout","time":33233.356054156,"data":"(Global p95 latency threshold used: 179.44ms)\n"}
+,{"stream_name":"stdout","time":33233.356057413,"data":"Static global SLO threshold (binary): AUC-ROC = 0.5558\n"}
+,{"stream_name":"stdout","time":33233.356061163,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356064443,"data":"=== Ablations: single-signal and pairwise fits (same AUC metric) ===\n"}
+,{"stream_name":"stdout","time":33233.356068493,"data":"Ablation [blast_radius only]: AUC-ROC = 0.6706\n"}
+,{"stream_name":"stdout","time":33233.35607214,"data":"Ablation [latency_z only (fitted)]: AUC-ROC = 0.7944\n"}
+,{"stream_name":"stdout","time":33233.356076106,"data":"Ablation [callrate_z only]: AUC-ROC = 0.4740\n"}
+,{"stream_name":"stdout","time":33233.356079584,"data":"Ablation [blast_radius + latency_z]: AUC-ROC = 0.8262\n"}
+,{"stream_name":"stdout","time":33233.356083602,"data":"Ablation [blast_radius + callrate_z]: AUC-ROC = 0.6837\n"}
+,{"stream_name":"stdout","time":33233.35608706,"data":"Ablation [latency_z + callrate_z]: AUC-ROC = 0.7951\n"}
+,{"stream_name":"stdout","time":33233.356090822,"data":"Ablation [all three (= full model, sanity check)]: AUC-ROC = 0.8267\n"}
+,{"stream_name":"stdout","time":33233.356094305,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356098261,"data":"=== Lead-time check: does the score flag the upstream service BEFORE downstream services show anomaly? ===\n"}
+,{"stream_name":"stdout","time":33233.356102015,"data":"  Event: MS_4990 at window 218 triggered 3 downstream anomalies: ['MS_33839', 'MS_24155', 'MS_4990']\n"}
+,{"stream_name":"stdout","time":33233.356105772,"data":"    -\u003e upstream 'MS_4990' latency_z at window 218: 4.531825933477911\n"}
+,{"stream_name":"stdout","time":33233.35610949,"data":"  Event: MS_39564 at window 6 triggered 4 downstream anomalies: ['MS_64119', 'MS_66546', 'MS_39564', 'MS_9221']\n"}
+,{"stream_name":"stdout","time":33233.356113829,"data":"    -\u003e upstream 'MS_39564' latency_z at window 6: 3.2519213139735244\n"}
+,{"stream_name":"stdout","time":33233.356117402,"data":"  Event: MS_745 at window 5 triggered 5 downstream anomalies: ['MS_70353', 'MS_64119', 'MS_66546', 'MS_46460', 'MS_745']\n"}
+,{"stream_name":"stdout","time":33233.356121018,"data":"    -\u003e upstream 'MS_745' latency_z at window 5: 5.03001233998412\n"}
+,{"stream_name":"stdout","time":33233.356124166,"data":"  Event: MS_42817 at window 186 triggered 3 downstream anomalies: ['MS_42817', 'MS_72766', 'MS_37725']\n"}
+,{"stream_name":"stdout","time":33233.356128301,"data":"    -\u003e upstream 'MS_42817' latency_z at window 186: 3.0697207397043735\n"}
+,{"stream_name":"stdout","time":33233.356133661,"data":"  Event: MS_64203 at window 188 triggered 3 downstream anomalies: ['MS_64203', 'MS_62171', 'MS_57555']\n"}
+,{"stream_name":"stdout","time":33233.356142354,"data":"    -\u003e upstream 'MS_64203' latency_z at window 188: 4.062090435310601\n"}
+,{"stream_name":"stdout","time":33233.356146601,"data":"  Event: MS_53695 at window 180 triggered 4 downstream anomalies: ['MS_39516', 'MS_60501', 'MS_24927', 'MS_47927']\n"}
+,{"stream_name":"stdout","time":33233.356150418,"data":"    -\u003e upstream 'MS_53695' latency_z at window 180: 3.5344982593224374\n"}
+,{"stream_name":"stdout","time":33233.356154212,"data":"  Event: MS_66044 at window 185 triggered 4 downstream anomalies: ['MS_57555', 'MS_4845', 'MS_15487', 'MS_43230']\n"}
+,{"stream_name":"stdout","time":33233.35615753,"data":"    -\u003e upstream 'MS_66044' latency_z at window 185: 3.4293092212743272\n"}
+,{"stream_name":"stdout","time":33233.356161561,"data":"  Event: MS_38376 at window 173 triggered 3 downstream anomalies: ['MS_38376', 'MS_20838', 'MS_44508']\n"}
+,{"stream_name":"stdout","time":33233.356165568,"data":"    -\u003e upstream 'MS_38376' latency_z at window 173: 3.582187697731104\n"}
+,{"stream_name":"stdout","time":33233.356169385,"data":"\n"}
+,{"stream_name":"stdout","time":33233.356172547,"data":"Saved evaluation_results_v3.pkl\n"}
+,{"stream_name":"stdout","time":33233.35617632,"data":"\n"}
+,{"stream_name":"stdout","time":33349.290474599,"data":"{\n"}
+,{"stream_name":"stdout","time":33349.290513,"data":" \"rows\": 8493391,\n"}
+,{"stream_name":"stdout","time":33349.290519432,"data":" \"positives\": 81,\n"}
+,{"stream_name":"stdout","time":33349.29052485,"data":" \"current_labelled_excluded\": 31,\n"}
+,{"stream_name":"stdout","time":33349.290529963,"data":" \"naive_crs\": {\n"}
+,{"stream_name":"stdout","time":33349.290535316,"data":"  \"auc_roc\": 0.7671525051140105,\n"}
+,{"stream_name":"stdout","time":33349.290541089,"data":"  \"auc_pr\": 0.0004559221990698929\n"}
+,{"stream_name":"stdout","time":33349.290546345,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.290552011,"data":" \"latency_z\": {\n"}
+,{"stream_name":"stdout","time":33349.290557405,"data":"  \"auc_roc\": 0.6255326716040894,\n"}
+,{"stream_name":"stdout","time":33349.290562948,"data":"  \"auc_pr\": 0.0003248132251211734\n"}
+,{"stream_name":"stdout","time":33349.290568809,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.290573661,"data":" \"callrate_z\": {\n"}
+,{"stream_name":"stdout","time":33349.290578988,"data":"  \"auc_roc\": 0.5067128004348986,\n"}
+,{"stream_name":"stdout","time":33349.290584319,"data":"  \"auc_pr\": 1.182030821112581e-05\n"}
+,{"stream_name":"stdout","time":33349.290589784,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.290594896,"data":" \"blast_radius\": {\n"}
+,{"stream_name":"stdout","time":33349.290600097,"data":"  \"auc_roc\": 0.7091004232801326,\n"}
+,{"stream_name":"stdout","time":33349.290604433,"data":"  \"auc_pr\": 0.00035870189828030876\n"}
+,{"stream_name":"stdout","time":33349.290609069,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.29061319,"data":" \"sliding_latency_z\": {\n"}
+,{"stream_name":"stdout","time":33349.290617329,"data":"  \"auc_roc\": 0.5660591340365188,\n"}
+,{"stream_name":"stdout","time":33349.290621871,"data":"  \"auc_pr\": 5.663644364190928e-05\n"}
+,{"stream_name":"stdout","time":33349.290626063,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.290629981,"data":" \"static_threshold\": {\n"}
+,{"stream_name":"stdout","time":33349.290634194,"data":"  \"auc_roc\": 0.530743909683687,\n"}
+,{"stream_name":"stdout","time":33349.290638856,"data":"  \"auc_pr\": 1.0849799457274714e-05\n"}
+,{"stream_name":"stdout","time":33349.29064361,"data":" },\n"}
+,{"stream_name":"stdout","time":33349.290647792,"data":" \"events\": [\n"}
+,{"stream_name":"stdout","time":33349.29067486,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290678896,"data":"   \"um\": \"MS_4990\",\n"}
+,{"stream_name":"stdout","time":33349.290683038,"data":"   \"window\": 218,\n"}
+,{"stream_name":"stdout","time":33349.290686733,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290690025,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290693431,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290697104,"data":"   \"um\": \"MS_39564\",\n"}
+,{"stream_name":"stdout","time":33349.290700812,"data":"   \"window\": 6,\n"}
+,{"stream_name":"stdout","time":33349.290704131,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290707651,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290710954,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290714228,"data":"   \"um\": \"MS_745\",\n"}
+,{"stream_name":"stdout","time":33349.290717566,"data":"   \"window\": 5,\n"}
+,{"stream_name":"stdout","time":33349.290721171,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290724852,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290728213,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290731434,"data":"   \"um\": \"MS_42817\",\n"}
+,{"stream_name":"stdout","time":33349.290735251,"data":"   \"window\": 186,\n"}
+,{"stream_name":"stdout","time":33349.290738685,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290742769,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290746106,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290749427,"data":"   \"um\": \"MS_64203\",\n"}
+,{"stream_name":"stdout","time":33349.290753148,"data":"   \"window\": 188,\n"}
+,{"stream_name":"stdout","time":33349.290756518,"data":"   \"warned_windows_ahead\": 1\n"}
+,{"stream_name":"stdout","time":33349.29075989,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290764554,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290767006,"data":"   \"um\": \"MS_53695\",\n"}
+,{"stream_name":"stdout","time":33349.2907693,"data":"   \"window\": 180,\n"}
+,{"stream_name":"stdout","time":33349.290771565,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290773895,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290776418,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290778641,"data":"   \"um\": \"MS_66044\",\n"}
+,{"stream_name":"stdout","time":33349.290780979,"data":"   \"window\": 185,\n"}
+,{"stream_name":"stdout","time":33349.290783338,"data":"   \"warned_windows_ahead\": 1\n"}
+,{"stream_name":"stdout","time":33349.290785685,"data":"  },\n"}
+,{"stream_name":"stdout","time":33349.290787982,"data":"  {\n"}
+,{"stream_name":"stdout","time":33349.290790247,"data":"   \"um\": \"MS_38376\",\n"}
+,{"stream_name":"stdout","time":33349.290792549,"data":"   \"window\": 173,\n"}
+,{"stream_name":"stdout","time":33349.290795017,"data":"   \"warned_windows_ahead\": 0\n"}
+,{"stream_name":"stdout","time":33349.290797376,"data":"  }\n"}
+,{"stream_name":"stdout","time":33349.290799686,"data":" ],\n"}
+,{"stream_name":"stdout","time":33349.290801929,"data":" \"top0.1pct_naive_threshold\": 0.23668813422536888,\n"}
+,{"stream_name":"stdout","time":33349.290804357,"data":" \"base_rate\": 9.536826928137419e-06\n"}
+,{"stream_name":"stdout","time":33349.290806854,"data":"}\n"}
+,{"stream_name":"stdout","time":33379.466392526,"data":"DONE\n"}
+,{"stream_name":"stderr","time":33384.777614157,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":33384.777667501,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":33385.394861849,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":33385.394898396,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":33388.898432291,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":33390.767992654,"data":"[NbConvertApp] Writing 322975 bytes to __results__.html\n"}
+]

@@ -1,0 +1,1730 @@
+{
+ "n_runs": 144,
+ "calibration": [
+  "hotel_r008_none_-_5",
+  "hotel_r009_none_-_6",
+  "hotel_r016_none_-_4",
+  "hotel_r017_none_-_7",
+  "social_r004_none_-_3",
+  "social_r024_none_-_1",
+  "social_r033_none_-_6",
+  "social_r035_none_-_2"
+ ],
+ "static_thr": 3.636274393442624,
+ "truth": {
+  "social_r000_net_ramp_post-storage-memcached_1": {
+   "baseline_p95": 4.618499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r001_net_ramp_social-graph-mongodb_1": {
+   "baseline_p95": 4.5,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r002_cpu_ramp_slow_post-storage-service_0": {
+   "baseline_p95": 5.6644999999999985,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "social_r003_cpu_ramp_slow_social-graph-mongodb_1": {
+   "baseline_p95": 5.515499999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r004_none_-_3": {
+   "baseline_p95": 4.943000000000002,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r005_net_ramp_unique-id-service_0": {
+   "baseline_p95": 3.99,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r006_net_ramp_text-service_1": {
+   "baseline_p95": 4.9,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "social_r007_net_ramp_user-timeline-mongodb_1": {
+   "baseline_p95": 6.384,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r008_cpu_ramp_slow_post-storage-service_1": {
+   "baseline_p95": 5.650499999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "social_r009_cpu_ramp_slow_user-timeline-service_0": {
+   "baseline_p95": 7.137499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "social_r010_net_ramp_compose-post-service_1": {
+   "baseline_p95": 5.8,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r011_net_ramp_social-graph-service_1": {
+   "baseline_p95": 5.973999999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r012_cpu_ramp_slow_user-mention-service_1": {
+   "baseline_p95": 7.064000000000001,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r013_cpu_ramp_slow_unique-id-service_0": {
+   "baseline_p95": 6.91,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r014_net_ramp_user-service_0": {
+   "baseline_p95": 5.22,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r015_net_ramp_post-storage-memcached_0": {
+   "baseline_p95": 5.529499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r016_cpu_ramp_slow_home-timeline-service_0": {
+   "baseline_p95": 5.905,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r017_net_ramp_text-service_0": {
+   "baseline_p95": 7.981500000000001,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "social_r018_cpu_ramp_slow_compose-post-service_0": {
+   "baseline_p95": 7.5975,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r019_net_ramp_home-timeline-redis_1": {
+   "baseline_p95": 8.8225,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r020_cpu_ramp_slow_post-storage-memcached_1": {
+   "baseline_p95": 6.58,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r021_net_ramp_user-timeline-service_1": {
+   "baseline_p95": 5.72,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r022_net_ramp_url-shorten-service_0": {
+   "baseline_p95": 7.54,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "social_r023_net_ramp_post-storage-mongodb_1": {
+   "baseline_p95": 6.78,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r024_none_-_1": {
+   "baseline_p95": 5.79,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r025_net_ramp_post-storage-mongodb_0": {
+   "baseline_p95": 4.901500000000001,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r026_cpu_ramp_slow_post-storage-mongodb_1": {
+   "baseline_p95": 6.73,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r027_cpu_ramp_slow_home-timeline-redis_1": {
+   "baseline_p95": 7.825499999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r028_cpu_ramp_slow_social-graph-service_0": {
+   "baseline_p95": 7.165,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r029_cpu_ramp_slow_user-service_1": {
+   "baseline_p95": 9.118999999999991,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r030_cpu_ramp_slow_media-service_0": {
+   "baseline_p95": 6.37,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r031_net_ramp_social-graph-mongodb_0": {
+   "baseline_p95": 5.683999999999992,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r032_cpu_ramp_slow_post-storage-mongodb_0": {
+   "baseline_p95": 7.102999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r033_none_-_6": {
+   "baseline_p95": 7.57,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r034_net_ramp_post-storage-service_0": {
+   "baseline_p95": 6.06,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r035_none_-_2": {
+   "baseline_p95": 5.235,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r036_net_ramp_post-storage-service_1": {
+   "baseline_p95": 6.608499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r037_cpu_ramp_slow_user-mention-service_0": {
+   "baseline_p95": 8.152,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r038_net_ramp_media-service_1": {
+   "baseline_p95": 7.395999999999995,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r039_none_-_0": {
+   "baseline_p95": 9.31,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r040_cpu_ramp_slow_media-service_1": {
+   "baseline_p95": 6.6975,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r041_none_-_8": {
+   "baseline_p95": 5.890999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r042_net_ramp_media-service_0": {
+   "baseline_p95": 8.569499999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r043_none_-_9": {
+   "baseline_p95": 7.46,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r044_cpu_ramp_slow_user-timeline-mongodb_0": {
+   "baseline_p95": 5.8344999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r045_net_ramp_home-timeline-service_0": {
+   "baseline_p95": 5.218499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r046_cpu_ramp_slow_url-shorten-service_1": {
+   "baseline_p95": 6.4789999999999965,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r047_net_ramp_social-graph-service_0": {
+   "baseline_p95": 7.018000000000002,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "social_r048_cpu_ramp_slow_text-service_0": {
+   "baseline_p95": 7.618499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r049_cpu_ramp_slow_social-graph-mongodb_0": {
+   "baseline_p95": 10.494499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r050_net_ramp_home-timeline-service_1": {
+   "baseline_p95": 5.94,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r051_cpu_ramp_slow_user-service_0": {
+   "baseline_p95": 5.9994999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r052_cpu_ramp_slow_text-service_1": {
+   "baseline_p95": 7.49,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r053_none_-_5": {
+   "baseline_p95": 7.61,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r054_net_ramp_compose-post-service_0": {
+   "baseline_p95": 5.8175,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r055_cpu_ramp_slow_url-shorten-service_0": {
+   "baseline_p95": 5.31,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r056_cpu_ramp_slow_compose-post-service_1": {
+   "baseline_p95": 6.296500000000001,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r057_none_-_10": {
+   "baseline_p95": 7.44,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r058_cpu_ramp_slow_post-storage-memcached_0": {
+   "baseline_p95": 8.11,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r059_cpu_ramp_slow_unique-id-service_1": {
+   "baseline_p95": 9.421999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r060_net_ramp_user-mention-service_1": {
+   "baseline_p95": 6.969499999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r061_none_-_11": {
+   "baseline_p95": 5.32,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r062_net_ramp_home-timeline-redis_0": {
+   "baseline_p95": 7.452500000000001,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 12,
+   "pre_breach": []
+  },
+  "social_r063_net_ramp_user-timeline-service_0": {
+   "baseline_p95": 8.075,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "social_r064_cpu_ramp_slow_home-timeline-service_1": {
+   "baseline_p95": 6.1175,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r065_cpu_ramp_slow_user-timeline-service_1": {
+   "baseline_p95": 5.565,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r066_cpu_ramp_slow_home-timeline-redis_0": {
+   "baseline_p95": 6.446999999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "social_r067_net_ramp_user-service_1": {
+   "baseline_p95": 8.383999999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r068_none_-_7": {
+   "baseline_p95": 7.778999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r069_net_ramp_user-mention-service_0": {
+   "baseline_p95": 9.522999999999996,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "social_r070_cpu_ramp_slow_social-graph-service_1": {
+   "baseline_p95": 6.577500000000001,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r071_net_ramp_unique-id-service_1": {
+   "baseline_p95": 5.95,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r072_cpu_ramp_slow_user-timeline-mongodb_1": {
+   "baseline_p95": 7.716999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "social_r073_net_ramp_user-timeline-mongodb_0": {
+   "baseline_p95": 7.886999999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "social_r074_net_ramp_url-shorten-service_1": {
+   "baseline_p95": 5.69,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "social_r075_none_-_4": {
+   "baseline_p95": 5.450999999999994,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r000_net_ramp_mongodb-geo_1": {
+   "baseline_p95": 9.88,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r001_cpu_ramp_slow_memcached-rate_1": {
+   "baseline_p95": 10.081999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r002_net_ramp_memcached-profile_0": {
+   "baseline_p95": 4.567999999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r003_cpu_ramp_slow_mongodb-rate_1": {
+   "baseline_p95": 9.37,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r004_cpu_ramp_slow_mongodb-geo_1": {
+   "baseline_p95": 8.220499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r005_cpu_ramp_slow_geo_1": {
+   "baseline_p95": 7.2479999999999976,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r006_net_ramp_memcached-rate_1": {
+   "baseline_p95": 6.180999999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r007_net_ramp_user_1": {
+   "baseline_p95": 8.32,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r008_none_-_5": {
+   "baseline_p95": 10.605,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r009_none_-_6": {
+   "baseline_p95": 6.52,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r010_cpu_ramp_slow_recommendation_1": {
+   "baseline_p95": 11.451999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r011_cpu_ramp_slow_memcached-profile_0": {
+   "baseline_p95": 11.9315,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r012_net_ramp_reservation_1": {
+   "baseline_p95": 6.06,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "hotel_r013_net_ramp_rate_0": {
+   "baseline_p95": 10.788499999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "hotel_r014_cpu_ramp_slow_mongodb-profile_0": {
+   "baseline_p95": 9.342999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r015_net_ramp_profile_1": {
+   "baseline_p95": 7.880499999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "hotel_r016_none_-_4": {
+   "baseline_p95": 7.415999999999994,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r017_none_-_7": {
+   "baseline_p95": 9.536999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r018_cpu_ramp_slow_memcached-profile_1": {
+   "baseline_p95": 12.65,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r019_net_ramp_recommendation_1": {
+   "baseline_p95": 7.96,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r020_net_ramp_rate_1": {
+   "baseline_p95": 12.613000000000001,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "hotel_r021_none_-_8": {
+   "baseline_p95": 12.61,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r022_cpu_ramp_slow_user_0": {
+   "baseline_p95": 5.37,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r023_net_ramp_attractions_1": {
+   "baseline_p95": 11.879999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r024_cpu_ramp_slow_review_1": {
+   "baseline_p95": 9.970999999999995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r025_cpu_ramp_slow_attractions_0": {
+   "baseline_p95": 9.366999999999988,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r026_net_ramp_mongodb-geo_0": {
+   "baseline_p95": 9.05,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r027_net_ramp_memcached-profile_1": {
+   "baseline_p95": 10.068999999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r028_cpu_ramp_slow_rate_0": {
+   "baseline_p95": 14.18,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "hotel_r029_net_ramp_search_0": {
+   "baseline_p95": 8.560999999999995,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "hotel_r030_cpu_ramp_slow_search_0": {
+   "baseline_p95": 12.5025,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "hotel_r031_cpu_ramp_slow_attractions_1": {
+   "baseline_p95": 14.165,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r032_net_ramp_review_1": {
+   "baseline_p95": 5.47,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r033_net_ramp_mongodb-rate_0": {
+   "baseline_p95": 11.6815,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r034_net_ramp_reservation_0": {
+   "baseline_p95": 9.363499999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 9,
+   "pre_breach": []
+  },
+  "hotel_r035_net_ramp_geo_0": {
+   "baseline_p95": 9.32,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r036_cpu_ramp_slow_memcached-rate_0": {
+   "baseline_p95": 8.331999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r037_cpu_ramp_slow_profile_1": {
+   "baseline_p95": 11.141,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r038_net_ramp_memcached-rate_0": {
+   "baseline_p95": 13.47,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 13,
+   "pre_breach": []
+  },
+  "hotel_r039_none_-_3": {
+   "baseline_p95": 9.078999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r040_cpu_ramp_slow_rate_1": {
+   "baseline_p95": 13.334999999999996,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "hotel_r041_cpu_ramp_slow_profile_0": {
+   "baseline_p95": 13.2715,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "hotel_r042_none_-_9": {
+   "baseline_p95": 5.7529999999999974,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r043_net_ramp_user_0": {
+   "baseline_p95": 11.64,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r044_none_-_1": {
+   "baseline_p95": 9.023999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r045_cpu_ramp_slow_user_1": {
+   "baseline_p95": 9.084499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r046_none_-_11": {
+   "baseline_p95": 8.22,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r047_net_ramp_attractions_0": {
+   "baseline_p95": 10.953999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r048_net_ramp_geo_1": {
+   "baseline_p95": 13.339999999999995,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 13,
+   "pre_breach": []
+  },
+  "hotel_r049_net_ramp_mongodb-profile_1": {
+   "baseline_p95": 8.882499999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r050_none_-_2": {
+   "baseline_p95": 13.805,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r051_cpu_ramp_slow_geo_0": {
+   "baseline_p95": 12.630999999999995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r052_cpu_ramp_slow_reservation_0": {
+   "baseline_p95": 6.019,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  },
+  "hotel_r053_cpu_ramp_slow_mongodb-rate_0": {
+   "baseline_p95": 12.043999999999977,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r054_none_-_0": {
+   "baseline_p95": 9.448999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r055_none_-_10": {
+   "baseline_p95": 10.103999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r056_cpu_ramp_slow_mongodb-geo_0": {
+   "baseline_p95": 8.265,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r057_net_ramp_mongodb-profile_0": {
+   "baseline_p95": 11.174499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r058_net_ramp_recommendation_0": {
+   "baseline_p95": 14.183000000000002,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 14,
+   "pre_breach": []
+  },
+  "hotel_r059_net_ramp_review_0": {
+   "baseline_p95": 9.324499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r060_cpu_ramp_slow_review_0": {
+   "baseline_p95": 13.5535,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r061_net_ramp_profile_0": {
+   "baseline_p95": 12.625999999999994,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 11,
+   "pre_breach": []
+  },
+  "hotel_r062_cpu_ramp_slow_mongodb-profile_1": {
+   "baseline_p95": 7.18,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r063_cpu_ramp_slow_reservation_1": {
+   "baseline_p95": 12.14,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 16,
+   "pre_breach": []
+  },
+  "hotel_r064_cpu_ramp_slow_recommendation_0": {
+   "baseline_p95": 9.180999999999994,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r065_net_ramp_mongodb-rate_1": {
+   "baseline_p95": 10.052000000000007,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "hotel_r066_net_ramp_search_1": {
+   "baseline_p95": 7.835999999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 10,
+   "pre_breach": []
+  },
+  "hotel_r067_cpu_ramp_slow_search_1": {
+   "baseline_p95": 11.283999999999995,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 17,
+   "pre_breach": []
+  }
+ },
+ "methods": {
+  "M1": {
+   "tau": 0.020015526167050376,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    270,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    30,
+    180,
+    90,
+    0,
+    60,
+    0
+   ],
+   "false_alarms": 15,
+   "control_hours": 10.93,
+   "fa_per_hour": 1.37,
+   "auc_cascade_vs_nocascade": 0.9780005569479253
+  },
+  "M2": {
+   "tau": 0.5018398508113233,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    0,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    30,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 1,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.09,
+   "auc_cascade_vs_nocascade": 0.9741019214703426
+  },
+  "M3": {
+   "tau": 0.5,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 150.0,
+   "lead_s": [
+    60,
+    270,
+    180,
+    90,
+    180,
+    270,
+    270,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    270,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    270,
+    60,
+    240,
+    30,
+    180,
+    150,
+    270,
+    270,
+    150,
+    30,
+    180,
+    90,
+    240,
+    60,
+    240
+   ],
+   "false_alarms": 579,
+   "control_hours": 10.93,
+   "fa_per_hour": 52.96,
+   "auc_cascade_vs_nocascade": 0.6111111111111112
+  },
+  "M4": {
+   "tau": 0.5,
+   "cascades": 57,
+   "detected": 2,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0
+   ],
+   "false_alarms": 0,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.0,
+   "auc_cascade_vs_nocascade": 0.5175438596491229
+  },
+  "M5": {
+   "tau": 0.4233812256200859,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    0,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    120,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    30,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 2,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.18,
+   "auc_cascade_vs_nocascade": 0.9746588693957114
+  },
+  "M6": {
+   "tau": 0.2858573725636308,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 90.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    270,
+    180,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    150,
+    60,
+    150,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    270,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 17,
+   "control_hours": 10.93,
+   "fa_per_hour": 1.55,
+   "auc_cascade_vs_nocascade": 0.9844054580896686
+  },
+  "M7": {
+   "tau": 0.0,
+   "cascades": 57,
+   "detected": 11,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    240,
+    30,
+    0,
+    30,
+    0,
+    30,
+    60,
+    0
+   ],
+   "false_alarms": 0,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.0,
+   "auc_cascade_vs_nocascade": 0.44527986633249794
+  },
+  "M8": {
+   "tau": 0.020015526167050376,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 90.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    270,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    240,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    30,
+    60,
+    0,
+    30,
+    180,
+    150,
+    30,
+    0,
+    150,
+    30,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 15,
+   "control_hours": 10.93,
+   "fa_per_hour": 1.37,
+   "auc_cascade_vs_nocascade": 0.7669172932330828
+  },
+  "A:b": {
+   "tau": 0.012162726739572421,
+   "cascades": 57,
+   "detected": 1,
+   "median_lead_s": 30.0,
+   "lead_s": [
+    30
+   ],
+   "false_alarms": 50,
+   "control_hours": 10.93,
+   "fa_per_hour": 4.57,
+   "auc_cascade_vs_nocascade": 0.49053188526872743
+  },
+  "A:l": {
+   "tau": 0.01100695286995287,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    0,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    30,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 1,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.09,
+   "auc_cascade_vs_nocascade": 0.9741019214703426
+  },
+  "A:c": {
+   "tau": 0.018879148577291137,
+   "cascades": 57,
+   "detected": 2,
+   "median_lead_s": 75.0,
+   "lead_s": [
+    90,
+    60
+   ],
+   "false_alarms": 9,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.82,
+   "auc_cascade_vs_nocascade": 0.4962406015037594
+  },
+  "A:bl": {
+   "tau": 0.016038988184518425,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    0,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    270,
+    180,
+    90,
+    60,
+    60,
+    0
+   ],
+   "false_alarms": 12,
+   "control_hours": 10.93,
+   "fa_per_hour": 1.1,
+   "auc_cascade_vs_nocascade": 0.9768866610971874
+  },
+  "A:bc": {
+   "tau": 0.018879148577291137,
+   "cascades": 57,
+   "detected": 7,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    270,
+    -30,
+    -60,
+    -60,
+    60,
+    90,
+    60
+   ],
+   "false_alarms": 16,
+   "control_hours": 10.93,
+   "fa_per_hour": 1.46,
+   "auc_cascade_vs_nocascade": 0.5730994152046783
+  },
+  "A:lc": {
+   "tau": 0.018879148577291137,
+   "cascades": 57,
+   "detected": 57,
+   "median_lead_s": 60.0,
+   "lead_s": [
+    60,
+    0,
+    180,
+    90,
+    180,
+    0,
+    0,
+    30,
+    60,
+    180,
+    60,
+    90,
+    180,
+    30,
+    90,
+    180,
+    180,
+    30,
+    30,
+    180,
+    180,
+    60,
+    90,
+    60,
+    30,
+    60,
+    120,
+    30,
+    60,
+    180,
+    60,
+    180,
+    180,
+    90,
+    180,
+    180,
+    60,
+    60,
+    90,
+    180,
+    60,
+    180,
+    0,
+    60,
+    0,
+    30,
+    180,
+    150,
+    0,
+    0,
+    150,
+    30,
+    150,
+    90,
+    0,
+    60,
+    0
+   ],
+   "false_alarms": 9,
+   "control_hours": 10.93,
+   "fa_per_hour": 0.82,
+   "auc_cascade_vs_nocascade": 0.9752158173210805
+  }
+ }
+}

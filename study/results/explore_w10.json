@@ -1,0 +1,1219 @@
+{
+ "n_runs": 132,
+ "calibration": [
+  "r012_none_-_3",
+  "r017_none_-_4",
+  "r019_none_-_6",
+  "r036_none_-_21",
+  "r042_none_-_20",
+  "r045_none_-_7",
+  "r048_none_-_2",
+  "r049_none_-_22"
+ ],
+ "static_thr": 3.8295865909090905,
+ "truth": {
+  "r000_cpu_ramp_text-service_0": {
+   "baseline_p95": 4.577999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r001_pause_flap_social-graph-mongodb_1": {
+   "baseline_p95": 4.7509999999999994,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r002_pause_flap_post-storage-service_0": {
+   "baseline_p95": 6.125,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r003_pause_flap_media-service_1": {
+   "baseline_p95": 5.62,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r004_cpu_step_user-mention-service_0": {
+   "baseline_p95": 5.418499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r005_cpu_ramp_social-graph-mongodb_0": {
+   "baseline_p95": 6.531999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r006_cpu_ramp_post-storage-mongodb_0": {
+   "baseline_p95": 5.03,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r007_pause_flap_media-service_0": {
+   "baseline_p95": 4.9689999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r008_pause_flap_post-storage-memcached_0": {
+   "baseline_p95": 4.66,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r009_cpu_step_media-service_1": {
+   "baseline_p95": 4.683,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r010_cpu_step_home-timeline-redis_1": {
+   "baseline_p95": 5.840999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r011_surge_-_1": {
+   "baseline_p95": 7.007999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r012_none_-_3": {
+   "baseline_p95": 5.187999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r013_pause_flap_user-service_0": {
+   "baseline_p95": 5.4079999999999995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r014_pause_flap_home-timeline-redis_1": {
+   "baseline_p95": 7.4575000000000005,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r015_cpu_ramp_user-timeline-mongodb_1": {
+   "baseline_p95": 6.81,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r016_pause_flap_unique-id-service_1": {
+   "baseline_p95": 5.4105,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r017_none_-_4": {
+   "baseline_p95": 5.11,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r018_cpu_step_user-mention-service_1": {
+   "baseline_p95": 5.691999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r019_none_-_6": {
+   "baseline_p95": 5.778999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r020_cpu_ramp_user-service_0": {
+   "baseline_p95": 5.7875,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r021_cpu_ramp_user-timeline-service_0": {
+   "baseline_p95": 5.5600000000000005,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r022_cpu_step_home-timeline-service_1": {
+   "baseline_p95": 6.832499999999995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r023_pause_flap_compose-post-service_1": {
+   "baseline_p95": 8.92,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r024_pause_flap_home-timeline-redis_0": {
+   "baseline_p95": 5.879,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r025_surge_-_6": {
+   "baseline_p95": 5.457499999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r026_pause_flap_compose-post-service_0": {
+   "baseline_p95": 8.392,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r027_cpu_ramp_url-shorten-service_1": {
+   "baseline_p95": 7.092999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r028_pause_flap_user-service_1": {
+   "baseline_p95": 5.951999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r029_surge_-_11": {
+   "baseline_p95": 4.683,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r030_surge_-_5": {
+   "baseline_p95": 6.052,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r031_cpu_step_user-timeline-mongodb_0": {
+   "baseline_p95": 6.452499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r032_surge_-_10": {
+   "baseline_p95": 5.4425,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r033_cpu_step_user-service_1": {
+   "baseline_p95": 5.427999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r034_cpu_step_social-graph-mongodb_1": {
+   "baseline_p95": 7.211999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r035_cpu_ramp_compose-post-service_1": {
+   "baseline_p95": 9.227500000000001,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r036_none_-_21": {
+   "baseline_p95": 6.362499999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r037_cpu_ramp_user-mention-service_1": {
+   "baseline_p95": 5.1359999999999975,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r038_cpu_step_post-storage-service_1": {
+   "baseline_p95": 8.017999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r039_cpu_step_home-timeline-service_0": {
+   "baseline_p95": 7.1019999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r040_pause_flap_user-timeline-service_0": {
+   "baseline_p95": 6.015000000000001,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r041_cpu_step_url-shorten-service_0": {
+   "baseline_p95": 5.920999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r042_none_-_20": {
+   "baseline_p95": 5.68,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r043_pause_flap_home-timeline-service_1": {
+   "baseline_p95": 6.392999999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r044_surge_-_2": {
+   "baseline_p95": 5.29,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r045_none_-_7": {
+   "baseline_p95": 4.063499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r046_cpu_step_compose-post-service_0": {
+   "baseline_p95": 7.281,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r047_pause_flap_user-timeline-mongodb_1": {
+   "baseline_p95": 8.53,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r048_none_-_2": {
+   "baseline_p95": 6.636999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r049_none_-_22": {
+   "baseline_p95": 7.013499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r050_cpu_ramp_post-storage-mongodb_1": {
+   "baseline_p95": 8.225,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r051_surge_-_8": {
+   "baseline_p95": 7.21,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r052_none_-_17": {
+   "baseline_p95": 6.548499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r053_surge_-_4": {
+   "baseline_p95": 7.22,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r054_surge_-_0": {
+   "baseline_p95": 6.154999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r055_cpu_ramp_post-storage-service_1": {
+   "baseline_p95": 6.366,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 41,
+   "pre_breach": []
+  },
+  "r056_cpu_ramp_home-timeline-service_0": {
+   "baseline_p95": 4.703999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r057_pause_flap_text-service_1": {
+   "baseline_p95": 3.68,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r058_cpu_step_text-service_1": {
+   "baseline_p95": 7.595,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r059_cpu_ramp_post-storage-service_0": {
+   "baseline_p95": 9.015999999999998,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 41,
+   "pre_breach": []
+  },
+  "r060_cpu_ramp_media-service_1": {
+   "baseline_p95": 6.140999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r061_cpu_step_user-timeline-service_1": {
+   "baseline_p95": 5.557999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r062_pause_flap_url-shorten-service_0": {
+   "baseline_p95": 8.612999999999994,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r063_none_-_13": {
+   "baseline_p95": 7.202499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r064_cpu_step_compose-post-service_1": {
+   "baseline_p95": 6.598,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r065_pause_flap_user-timeline-service_1": {
+   "baseline_p95": 5.0600000000000005,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r066_cpu_ramp_url-shorten-service_0": {
+   "baseline_p95": 6.050999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r067_cpu_ramp_post-storage-memcached_0": {
+   "baseline_p95": 6.338999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r068_cpu_step_post-storage-mongodb_1": {
+   "baseline_p95": 6.15,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r069_pause_flap_post-storage-mongodb_1": {
+   "baseline_p95": 5.56,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r070_cpu_step_url-shorten-service_1": {
+   "baseline_p95": 7.513999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r071_cpu_ramp_user-timeline-mongodb_0": {
+   "baseline_p95": 9.383,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r072_pause_flap_unique-id-service_0": {
+   "baseline_p95": 6.506999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r073_none_-_14": {
+   "baseline_p95": 5.215,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r074_cpu_step_social-graph-service_0": {
+   "baseline_p95": 9.093999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r075_pause_flap_social-graph-mongodb_0": {
+   "baseline_p95": 7.233499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r076_pause_flap_user-mention-service_0": {
+   "baseline_p95": 6.636499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r077_cpu_ramp_text-service_1": {
+   "baseline_p95": 5.937999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r078_cpu_ramp_home-timeline-service_1": {
+   "baseline_p95": 6.537999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r079_pause_flap_text-service_0": {
+   "baseline_p95": 6.4595,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r080_cpu_step_post-storage-memcached_0": {
+   "baseline_p95": 5.695999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r081_cpu_step_text-service_0": {
+   "baseline_p95": 5.61,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r082_cpu_ramp_social-graph-mongodb_1": {
+   "baseline_p95": 7.842499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r083_cpu_step_social-graph-mongodb_0": {
+   "baseline_p95": 9.943999999999992,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r084_cpu_step_user-service_0": {
+   "baseline_p95": 6.325,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r085_cpu_ramp_user-timeline-service_1": {
+   "baseline_p95": 5.4,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r086_cpu_step_user-timeline-service_0": {
+   "baseline_p95": 8.951999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r087_pause_flap_url-shorten-service_1": {
+   "baseline_p95": 7.32,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r088_cpu_step_post-storage-service_0": {
+   "baseline_p95": 6.805,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r089_pause_flap_user-timeline-mongodb_0": {
+   "baseline_p95": 3.617999999999997,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r090_cpu_step_social-graph-service_1": {
+   "baseline_p95": 6.3039999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r091_pause_flap_post-storage-service_1": {
+   "baseline_p95": 6.6,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r092_cpu_ramp_user-mention-service_0": {
+   "baseline_p95": 6.55,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r093_cpu_ramp_post-storage-memcached_1": {
+   "baseline_p95": 3.751999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r094_cpu_step_media-service_0": {
+   "baseline_p95": 7.716999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r095_cpu_ramp_unique-id-service_0": {
+   "baseline_p95": 9.994499999999993,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r096_none_-_12": {
+   "baseline_p95": 6.637999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r097_none_-_5": {
+   "baseline_p95": 5.542999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r098_surge_-_7": {
+   "baseline_p95": 8.825999999999999,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 35,
+   "pre_breach": []
+  },
+  "r099_cpu_step_post-storage-memcached_1": {
+   "baseline_p95": 7.8294999999999995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r100_none_-_23": {
+   "baseline_p95": 5.833499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r101_cpu_ramp_home-timeline-redis_1": {
+   "baseline_p95": 8.46,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r102_none_-_1": {
+   "baseline_p95": 6.6084999999999985,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r103_cpu_step_unique-id-service_0": {
+   "baseline_p95": 6.995,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r104_none_-_9": {
+   "baseline_p95": 4.679499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r105_pause_flap_user-mention-service_1": {
+   "baseline_p95": 4.310999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r106_pause_flap_post-storage-mongodb_0": {
+   "baseline_p95": 7.99,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 35,
+   "pre_breach": []
+  },
+  "r107_cpu_ramp_social-graph-service_1": {
+   "baseline_p95": 9.886499999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r108_none_-_15": {
+   "baseline_p95": 5.960999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r109_none_-_11": {
+   "baseline_p95": 5.6775,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r110_none_-_16": {
+   "baseline_p95": 8.917,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r111_none_-_0": {
+   "baseline_p95": 7.9,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r112_none_-_10": {
+   "baseline_p95": 6.4125,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r113_cpu_ramp_social-graph-service_0": {
+   "baseline_p95": 5.667999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r114_none_-_8": {
+   "baseline_p95": 6.663999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r115_pause_flap_post-storage-memcached_1": {
+   "baseline_p95": 6.8125,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r116_surge_-_3": {
+   "baseline_p95": 6.248499999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r117_pause_flap_social-graph-service_1": {
+   "baseline_p95": 5.695999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r118_cpu_step_unique-id-service_1": {
+   "baseline_p95": 8.205,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r119_cpu_step_home-timeline-redis_0": {
+   "baseline_p95": 8.3295,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r120_none_-_18": {
+   "baseline_p95": 6.0755,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r121_cpu_step_user-timeline-mongodb_1": {
+   "baseline_p95": 5.920999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r122_cpu_step_post-storage-mongodb_0": {
+   "baseline_p95": 9.397999999999993,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r123_cpu_ramp_unique-id-service_1": {
+   "baseline_p95": 8.39,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r124_cpu_ramp_compose-post-service_0": {
+   "baseline_p95": 7.29,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r125_pause_flap_home-timeline-service_0": {
+   "baseline_p95": 7.37,
+   "slo": 100.0,
+   "cascade": true,
+   "onset_bin": 24,
+   "pre_breach": []
+  },
+  "r126_surge_-_9": {
+   "baseline_p95": 6.619999999999997,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r127_pause_flap_social-graph-service_0": {
+   "baseline_p95": 7.461999999999996,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r128_none_-_19": {
+   "baseline_p95": 7.276999999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r129_cpu_ramp_media-service_0": {
+   "baseline_p95": 4.860999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r130_cpu_ramp_user-service_1": {
+   "baseline_p95": 8.537999999999998,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  },
+  "r131_cpu_ramp_home-timeline-redis_0": {
+   "baseline_p95": 8.865499999999999,
+   "slo": 100.0,
+   "cascade": false,
+   "onset_bin": null,
+   "pre_breach": []
+  }
+ },
+ "methods": {
+  "M1": {
+   "tau": 0.03111522522563805,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    50,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 3,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.31,
+   "auc_cascade_vs_nocascade": 0.9599184782608696
+  },
+  "M2": {
+   "tau": 0.5675625663019211,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 16,
+   "control_hours": 9.6,
+   "fa_per_hour": 1.67,
+   "auc_cascade_vs_nocascade": 0.9585597826086957
+  },
+  "M3": {
+   "tau": 0.5,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    170,
+    170,
+    0,
+    0,
+    0,
+    110,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 2113,
+   "control_hours": 9.6,
+   "fa_per_hour": 220.1,
+   "auc_cascade_vs_nocascade": 0.5
+  },
+  "M4": {
+   "tau": 0.5,
+   "cascades": 16,
+   "detected": 4,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "false_alarms": 0,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.0,
+   "auc_cascade_vs_nocascade": 0.625
+  },
+  "M5": {
+   "tau": 0.625701508949032,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 14,
+   "control_hours": 9.6,
+   "fa_per_hour": 1.46,
+   "auc_cascade_vs_nocascade": 0.9599184782608695
+  },
+  "M6": {
+   "tau": 0.31388716371014214,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    40,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 27,
+   "control_hours": 9.6,
+   "fa_per_hour": 2.81,
+   "auc_cascade_vs_nocascade": 0.9932065217391304
+  },
+  "A:b": {
+   "tau": 0.012197697640485804,
+   "cascades": 16,
+   "detected": 0,
+   "median_lead_s": null,
+   "lead_s": [],
+   "false_alarms": 15,
+   "control_hours": 9.6,
+   "fa_per_hour": 1.56,
+   "auc_cascade_vs_nocascade": 0.49966032608695654
+  },
+  "A:l": {
+   "tau": 0.011745878800337126,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 16,
+   "control_hours": 9.6,
+   "fa_per_hour": 1.67,
+   "auc_cascade_vs_nocascade": 0.9585597826086957
+  },
+  "A:c": {
+   "tau": 0.016983745197224922,
+   "cascades": 16,
+   "detected": 1,
+   "median_lead_s": 30.0,
+   "lead_s": [
+    30
+   ],
+   "false_alarms": 3,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.31,
+   "auc_cascade_vs_nocascade": 0.48845108695652173
+  },
+  "A:bl": {
+   "tau": 0.021184117837771216,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 7,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.73,
+   "auc_cascade_vs_nocascade": 0.9619565217391305
+  },
+  "A:bc": {
+   "tau": 0.030423016912345804,
+   "cascades": 16,
+   "detected": 1,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0
+   ],
+   "false_alarms": 1,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.1,
+   "auc_cascade_vs_nocascade": 0.44904891304347827
+  },
+  "A:lc": {
+   "tau": 0.017709450367319943,
+   "cascades": 16,
+   "detected": 16,
+   "median_lead_s": 0.0,
+   "lead_s": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    50,
+    110,
+    0,
+    0
+   ],
+   "false_alarms": 8,
+   "control_hours": 9.6,
+   "fa_per_hour": 0.83,
+   "auc_cascade_vs_nocascade": 0.9565217391304348
+  }
+ }
+}
